@@ -12,7 +12,7 @@
     <link
         rel="shortcut icon"
         type="image/png"
-        href="{% static 'images/happy-croissant.webp' %}"
+        href="{% static 'images/happy-croissant.jpg' %}"
     />
     {% block head %} 
     {% endblock %}
@@ -21,11 +21,12 @@
     <header>
       <div class="header-logo-container">
         <a href="/">
-          <img src="{% static 'images/happy-croissant.webp' %}" alt="The Rate My Bake Logo" />
+          <img src="{% static 'images/happy-croissant.jpg' %}" alt="The Rate My Bake Logo" />
         </a>
       </div>
       <nav>
         <ul>
+          <li><a href="/bakes">All Bakeries</a></li>
           <li><a href="/about">About</a></li>
         </ul>
       </nav>
